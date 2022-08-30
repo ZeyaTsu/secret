@@ -65,6 +65,8 @@ a {
     border-radius: 6px;
     left:500px;
     outline: 1px solid #303030;
+    transition: 0.2s
+
 }
 
 .container
@@ -76,4 +78,12 @@ a {
     
     
     
+}
+
+a:hover
+{
+    color: rgb(179, 206, 255);
+    transform: scale(1.1);
+    transition: 0.2s
+
 }
