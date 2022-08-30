@@ -37,6 +37,8 @@ body
 
 #username
 {
+    font-weight: bold;
+
     text-align: center;
     color: white;
     font-size: 32px;
