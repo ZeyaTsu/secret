@@ -1,0 +1,345 @@
+@media (min-width: 1024px) {
+
+
+    *
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .containerhead
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 60px;
+        background-color: #111111; 
+        
+    }
+
+    #logo
+    {
+        position: absolute;
+        left: 50px;
+        top: -30px;
+        height: 128px;
+        width: 128px;
+        transition: 0.2s;
+
+    }
+
+    #logo:hover
+    {
+        transform: scale(1.1);
+        transition: 0.2s;
+
+    }
+
+    body
+    {
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+        background-color: #080808;
+    }
+
+    .phonepc
+    {
+        background-image: url("pcphone.png");
+        width: 500px;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        
+        /*/#0c0c0*/
+
+        margin: auto;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+
+    .logo
+    {
+
+        background-image: url("logosecret.png");
+        width: 500px;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        
+        /*/#0c0c0*/
+
+        margin: auto;
+        margin-right: 100%;
+        position: absolute;
+        top: 100px;
+
+    }
+
+
+    h1
+    {
+        color: white;
+        font-size: 100px;
+        position: absolute;
+        left: 15%;
+        top: 45%;
+    }
+
+    #description
+    {
+        color: #323232;
+        margin-left: 17%;
+        margin-top: -3%;
+    }
+
+    #picdesc
+    {
+        color: #323232;
+        margin-left: 67%;
+        margin-top: -5%;
+        font-size: 20px;
+    }
+
+    h6
+    {
+        color: #323232;
+        margin-left: 67%;
+        margin-top: 0%;
+        opacity: 0.5;
+    
+    }
+
+    a
+    {
+        text-align: center;
+            /*/#0a0a0a*/
+            background-color: #ffffff;
+            border: none;
+            width: 20%;
+            color: rgb(0, 0, 0);
+            padding: 15px 64px;
+            text-decoration: none;
+            display: inline-block;
+            
+            font-size: 16px;
+            margin: 4px ;
+            border-radius: 100px;
+        
+            /*/#0a0a0a*/
+            transition: 0.2s;
+        
+    }
+
+    a:hover
+    {
+        transform: scale(1.2);
+        transition: 0.2s;
+    }
+
+    .containerbutton
+    {
+        height: 100px;
+        width: 800px;
+        position: relative;
+        left: 15%;
+        padding-top: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+
+    *
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .containerhead
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 30px;
+        background-color: #111111; 
+        
+    }
+
+    #logo
+    {
+        position: absolute;
+        left: 10px;
+        top: -15px;
+        height: 64px;
+        width: 64px;
+        transition: 0.2s;
+
+    }
+
+    #logo:hover
+    {
+        transform: scale(1.1);
+        transition: 0.2s;
+
+    }
+
+    body
+    {
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+        background-color: #080808;
+    }
+
+    .phonepc
+    {
+        background-image: url("pcphone.png");
+        width: 250px;
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        
+
+        
+    }
+
+    .logo
+    {
+
+        background-image: url("logosecret.png");
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        
+        /*/#0c0c0*/
+
+        margin: auto;
+        
+        position: absolute;
+        top: 2%;
+
+    }
+
+
+    h1
+    {
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        left: 40%;
+        margin-top: 50%;
+    }
+    
+
+    #description
+    {
+        color: #323232;
+        margin-left: 17%;
+        margin-top: 65%;
+    }
+    
+    #picdesc
+    {
+        color: #323232;
+        margin-left: 17%;
+        margin-top: 55%;
+        font-size: 20px;
+    }
+    
+    h6
+    {
+        color: #323232;
+        margin-left: 67%;
+        margin-top: 0%;
+        opacity: 0.5;
+    
+    } 
+
+    a
+    {
+        text-align: center;
+            background-color: #ffffff;
+            border: none;
+            
+            color: rgb(0, 0, 0);
+            padding: 15px 64px;
+            text-decoration: none;
+            display: inline-block;
+            
+            font-size: 16px;
+            margin: 4px ;
+            border-radius: 100px;
+        
+            transition: 0.2s;
+        
+    }
+
+    a:hover
+    {
+        transform: scale(1.2);
+        transition: 0.2s;
+    }
+    
+    .containerbutton
+    {
+        
+        position: relative;
+        
+        padding-top: 5%;
+    } 
+}
