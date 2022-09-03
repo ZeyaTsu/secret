@@ -63,7 +63,20 @@
         color: #8d8d8d;
         transition: 0.2s;
     }
+
+    #gif
+    {
+        
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        transform: scale(0.7);
+    }
+
+
 }
+
+
 
 
 
@@ -128,7 +141,7 @@
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 30px;
+        height: 60px;
         background-color: #111111; 
         
     }
@@ -136,10 +149,10 @@
     #logo
     {
         position: absolute;
-        left: 10px;
-        top: -15px;
-        height: 64px;
-        width: 64px;
+        left: 50px;
+        top: -30px;
+        height: 128px;
+        width: 128px;
         transition: 0.2s;
 
     }
@@ -158,104 +171,56 @@
         background-color: #080808;
     }
 
-    .phonepc
-    {
-        background-image: url("pcphone.png");
-        width: 250px;
-        height: 250px;
-        background-size: cover;
-        background-position: center;
-        position: absolute;
-        top: 40%;
-        left: 30%;
-        
-
-        
-    }
-
-    .logo
-    {
-
-        background-image: url("logosecret.png");
-        width: 300px;
-        height: 300px;
-        background-size: cover;
-        background-position: center;
-        
-        /*/#0c0c0*/
-
-        margin: auto;
-        
-        position: absolute;
-        top: 2%;
-
-    }
-
-
+    
     h1
     {
         color: white;
         font-size: 50px;
         position: absolute;
-        left: 40%;
-        margin-top: 50%;
+        left: 15%;
+        top: 15%;
     }
-    
-
-    #description
-    {
-        color: #323232;
-        margin-left: 17%;
-        margin-top: 65%;
-    }
-    
-    #picdesc
-    {
-        color: #323232;
-        margin-left: 17%;
-        margin-top: 55%;
-        font-size: 20px;
-    }
-    
-    h6
-    {
-        color: #323232;
-        margin-left: 67%;
-        margin-top: 0%;
-        opacity: 0.5;
-    
-    } 
 
     a
     {
-        text-align: center;
-            background-color: #ffffff;
-            border: none;
-            
-            color: rgb(0, 0, 0);
-            padding: 15px 64px;
-            text-decoration: none;
-            display: inline-block;
-            
-            font-size: 16px;
-            margin: 4px ;
-            border-radius: 100px;
-        
-            transition: 0.2s;
-        
+        color: white;
+        transition: 0.2s;
     }
 
     a:hover
     {
-        transform: scale(1.2);
+        color: #8d8d8d;
         transition: 0.2s;
     }
-    
-    .containerbutton
+
+    /*#gif
     {
         
-        position: relative;
+        position: absolute;
+        left: -40%;
+        Top : 45%;
+
+        transform: translate(40%, -45%);
         
-        padding-top: 5%;
-    } 
+        transform: scale(0.4);
+    }*/
+
+    .center
+    {
+        text-align: center;
+        display: flex;
+        margin-top: 80%;
+        margin-left: -45%
+        
+    }
+    #gif
+    {
+        transform: scale(0.4);
+        display: flex;
+
+
+
+    }
+
+
 }
